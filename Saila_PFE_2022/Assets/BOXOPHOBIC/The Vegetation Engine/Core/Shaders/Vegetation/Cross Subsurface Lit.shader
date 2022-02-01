@@ -327,6 +327,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE
@@ -1344,6 +1347,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE
@@ -2044,6 +2050,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE
@@ -2727,6 +2736,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE
@@ -3526,6 +3538,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE
@@ -4305,6 +4320,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE
@@ -5019,6 +5037,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Cross Subsurface Lit"
 			#define TVE_IS_VEGETATION_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Pipeline Defines
 			#define THE_VEGETATION_ENGINE

@@ -343,6 +343,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
@@ -1476,6 +1479,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
@@ -2285,6 +2291,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
@@ -3079,6 +3088,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
@@ -3994,6 +4006,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
@@ -4887,6 +4902,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
@@ -5712,6 +5730,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Vegetation/Grass Subsurface Lit"
 			#pragma shader_feature_local TVE_VERTEX_DATA_BATCHED
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			//TVE Shader Type Defines
 			#define TVE_IS_GRASS_SHADER
