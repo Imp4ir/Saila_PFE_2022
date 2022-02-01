@@ -207,6 +207,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Subsurface Lit (He
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 
@@ -1092,6 +1095,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Subsurface Lit (He
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 
@@ -1649,6 +1655,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Subsurface Lit (He
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 
@@ -2195,6 +2204,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Subsurface Lit (He
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 
@@ -2746,6 +2758,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Subsurface Lit (He
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 

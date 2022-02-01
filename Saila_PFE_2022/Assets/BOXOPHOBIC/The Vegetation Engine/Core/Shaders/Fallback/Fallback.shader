@@ -48,6 +48,9 @@ Shader "Hidden/BOXOPHOBIC/The Vegetation Engine/Fallback"
 			#include "UnityCG.cginc"
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 

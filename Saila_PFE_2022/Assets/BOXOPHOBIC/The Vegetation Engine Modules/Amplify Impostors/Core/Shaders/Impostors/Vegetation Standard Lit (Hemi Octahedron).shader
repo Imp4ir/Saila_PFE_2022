@@ -204,6 +204,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Standard Lit (Hemi
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -1085,6 +1088,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Standard Lit (Hemi
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -1638,6 +1644,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Standard Lit (Hemi
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -2180,6 +2189,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Standard Lit (Hemi
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -2727,6 +2739,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Vegetation Standard Lit (Hemi
 			#pragma shader_feature_local TVE_IS_VEGETATION_SHADER TVE_IS_GRASS_SHADER
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 

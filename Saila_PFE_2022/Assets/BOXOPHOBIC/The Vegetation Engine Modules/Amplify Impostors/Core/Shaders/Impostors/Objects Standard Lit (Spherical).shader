@@ -183,6 +183,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Objects Standard Lit (Spheric
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -730,6 +733,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Objects Standard Lit (Spheric
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -1035,6 +1041,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Objects Standard Lit (Spheric
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -1329,6 +1338,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Objects Standard Lit (Spheric
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
@@ -1630,6 +1642,9 @@ Shader "BOXOPHOBIC/The Vegetation Engine/Impostors/Objects Standard Lit (Spheric
 			#define TVE_IS_UNIVERSAL_PIPELINE
 			//TVE Injection Defines
 			//SHADER INJECTION POINT BEGIN
+           //Nature Renderer (Procedural Instancing)
+           #include "Assets/Visual Design Cafe/Nature Shaders/Common/Nodes/Integrations/Nature Renderer.cginc"
+           #pragma instancing_options procedural:SetupNatureRenderer
 			//SHADER INJECTION POINT END
 
 
