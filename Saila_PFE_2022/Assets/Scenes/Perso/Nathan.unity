@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18365534, g: 0.22795531, b: 0.298327, a: 1}
+  m_IndirectSpecularColor: {r: 0.1828634, g: 0.2260614, b: 0.29241112, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -334,7 +334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1570434337704028580, guid: ec29cb310c8736b4dae329a19c51f716, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73.45
+      value: 76.9
       objectReference: {fileID: 0}
     - target: {fileID: 1570434337704028580, guid: ec29cb310c8736b4dae329a19c51f716, type: 3}
       propertyPath: m_LocalPosition.y
@@ -589,13 +589,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033456187}
-  m_LocalRotation: {x: 0.12243995, y: 0.18090764, z: -0.83030266, w: 0.51271677}
+  m_LocalRotation: {x: -0.30064267, y: 0.40225884, z: 0.17643845, w: -0.8465644}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 25.212, y: -1.128, z: -116.861}
+  m_LocalEulerAnglesHint: {x: 21.536, y: -417.805, z: -35.533}
 --- !u!1001 &1129659994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -676,7 +676,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.39877182
+  - screenRelativeHeight: 0.41377226
     fadeTransitionWidth: 0
     renderers: []
   - screenRelativeHeight: 0.06349988

@@ -74,7 +74,7 @@ Material:
     - _ElementEffect: 0
     - _ElementFadeMessage: 0
     - _ElementFadeSupport: 0
-    - _ElementIntensity: 0.1
+    - _ElementIntensity: 0.3
     - _ElementLayer: 0
     - _ElementLayerCustomMessage: 0
     - _ElementLayerGrassMessage: 0
